@@ -1,0 +1,1 @@
+Belajar dasar pemrograman web dengan HTML dan CSS mempraktikan pembuatan web pribadi atau portofolio adalah langkah yang sangat bermanfaat untuk meningkatkan keterampilan pengembangan saya dan membuat saya lebih siap menghadapi proyek-proyek web yang lebih kompleks di masa depan.

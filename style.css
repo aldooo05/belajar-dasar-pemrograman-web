@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+}
+button a{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links{
+    display: flex;
+}
+.logo-container {
+    margin-top: 1%;
+    flex: 1;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link {
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav {
+    flex: 1;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.hero {
+    flex: 1;
+}
+.hero-text h1{
+    font-size: 44px;
+    font-weight: 500;
+}
+.hero-text p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+.btn{
+    padding: 50px 0px 0px 0px;
+}
+.btn-select{
+    border: 2px solid #e95160;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-select a{
+    color: #e95160;
+}
+.btn-add a{
+    color: white;
+}
+.btn-add {
+    border-radius: 5px;
+    background: #e95160;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin: 30px 0px 0px 30px;
+}
+.cover img {
+    height: 60vh;   
+}
+
+@media screen and (max-width: 920px) {
+    .presentation{
+        flex-direction: column-reverse;
+    }
+    .hero{
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+    }
+    .hero-text p{
+        font-size: 18px;
+    }
+    .btn{
+        padding: 10px 0px 0px 0px;
+    }
+    .btn-add{
+        width: 100px;
+        height: 50px;
+        font-size: 14px
+    }
+    .btn-select{
+        width: 100px;
+        height: 50px;
+        font-size: 14px
+    }
+    .cover img{
+        height: 50vh;
+    }
+}
+
+
+/* About me */
+
+.about {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 10vh;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.profile{
+    flex: 1;
+}
+.profile-img img {
+    border-radius: 50%; 
+    width: 400px;
+}
+.profile-text {
+    margin-left: 5%;
+}
+.profile-text h1{
+    font-size: 44px;
+    font-weight: 500;
+}
+.profile-text p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+
+@media screen and (max-width: 400px){
+    .profile-img img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .about{
+        flex-direction: column;
+    }
+    .profile {
+        margin-top: 10vh;
+        text-align: center;
+    }
+    .profile-img img{
+        width: 300px;
+    }
+    .profile-text{
+        margin-top: 10vh;
+        text-align: center;
+    }
+    .profile-text h1 {
+        font-size: 30px;
+    }
+    .profile-text p{
+        font-size: 18px;
+    }
+
+}
+
+/* Contact */
+
+.row {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 10vh;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.column{
+    flex: 1;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+}
+
+.card p {
+    margin-top: 10px;
+    color: #585772;
+}
+.contact-img img{
+    height: 40vh;
+    width: 100%;
+}
+@media screen and (max-width: 1200px){
+    .card img{
+        display: none;
+    }
+    .contact-img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+    }
+    .contact-img img {
+        display: none;
+    }
+}
+
+
+/* footer */
+
+.footer-img h2 {
+    text-align: center;
+}
+
+.footer-img ul li{
+    padding: 40px;
+    width: 30px;
+}
+
+.footer-img ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
